@@ -1,0 +1,145 @@
+@font-face
+	{
+		font-family: ArmaliteRifle;
+		src: url(armalite.ttf);
+	}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #181818;
+}
+
+	header{
+		height:auto;
+	}
+
+		
+
+	#menu ul li{display: inline;}
+
+	#menu ul{
+		padding 	: 0;
+		margin  	: 0;
+		list-style  : none;
+		text-align: center;
+	}
+
+	#menu  li {
+		border-top: solid 2px #E8E8E8;
+		margin-right: 10px;
+		padding-top: 10px;
+		color: #E8E8E8;
+		font-weight: bold;
+		height: 35px;		 
+		width:270px;
+
+		/* border-top: solid 1px #E13E3E;					*/
+		/* background-color: #212121;						*/ 
+		/* margin-right: 10px; 			    				*/
+		/* padding-top: 10px;								*/
+		/* color: #E13E3E;									*/
+		/* font-weight: bold;								*/
+		/* height: 40px;									*/
+		/* width:230px;		 								*/
+		/* transition: background-color 0.6s ease-out;		*/
+
+	}
+
+	#menu li:hover{
+		/*background-color  : #E13E3E;*/
+		background-color    : #E8E8E8;			
+		color 			    : #181818;
+	}
+
+	#menu ul li{				
+		display: inline-block;							
+	}	
+
+	#menu a{
+		/*	padding: 10px 25px;				*/
+		/*	margin-top: 5px;				*/
+		/*	height:30px;					*/
+		/*	text-decoration: none;			*/
+		/*	color:#E13E3E;					*/
+		/*	font-family: "ArmaliteRifle";	*/
+		/*	font-size: 1.5em;				*/
+		/*	width:100%;						*/
+
+		color: #E8E8E8;
+		background-color: #212121;			
+		padding: 10px 25px;			
+		height:40px;		
+		text-decoration: none;
+
+		/*color:#E13E3E;*/
+
+		font-family: "ArmaliteRifle";
+		font-size: 2em;	
+		width:100%;
+		transition: background-color 0.6s ease-out;
+	}
+
+		#menu li > a:hover{
+			color:#212121;
+
+			/*background-color: #E13E3E;*/
+
+			background-color: #E8E8E8;
+
+		}
+
+	#title-container{
+		width:720px;		
+		margin:0 auto;
+			
+	}
+
+		#ytt{
+			/* color:  #E13E3E; */
+			color: #E8E8E8;
+			text-align: center;
+			font-family: "ArmaliteRifle";
+			font-size: 6.5em;			
+			width:100%;
+			
+		}
+
+		.title{
+			color:#212121;
+			font-family: "ArmaliteRifle";
+			font-size: 40px;
+		}
+
+		.title2{
+			/*color:#E13E3E;*/
+			color: #E8E8E8;
+			font-family: "Courier New";
+			font-size:2em;
+			padding-top: 5px;
+			/*padding-left: 50px;*/
+			background-color: #212121;
+			margin-bottom: 2px;
+			height:45px;
+		}
+
+		#agenda{			
+			/*background-color: #E13E3E;*/
+			background-color: #E8E8E8;
+			width:720px;
+			margin: 0 auto;
+			margin-top: 30px;
+			height:50px;
+		}
+
+		#agenda2{									
+			width:720px;
+			height:auto;
+			margin: 0 auto;
+			margin-top: 2px;
+			background-color: #111;
+			
+		}
