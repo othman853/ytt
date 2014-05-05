@@ -56,17 +56,26 @@ img{
 }
 
 body{
-	background-color 		: #101E18;
+	background-color 		: #1C1D1D;
+	height: 2000px;
 	
 	/*#1C1D1D;*/
 	/* #181818;*/
 }
 
-#page-header{
-	height 				: 75px;			
-	/*box-shadow 			: 0px 0px 5px #B54B59;*/
+footer{
+	position 				: fixed;
+	width 					: 100%;
+	left 					: 0px;
+	top 					: 90%;
+	height 					: 300px;	
+	background-color 		: #1C1D1D;	
+	border-top 				: dotted 2px #E1E1E1; /*#D04444;*/
+}
 
-		
+#page-header{
+	height 					: 75px;			
+	/*box-shadow 			: 0px 0px 5px #B54B59;*/		
 	/*background-position:10px 80%;	*/
 }
 	
@@ -74,30 +83,36 @@ body{
 #cabecalho{	
 	font-size 				: 3.5em;
 	text-shadow 			: 4px 4px #181818, 5px 5px #E1E1E1;	
-	width 					: 600px;
-	float 					: left;
+	width 					: 550px;
+	float 					: left;	
 }	
 
 #menu{
 	list-style-type			: none;
 	display					: inline-block;	
-	float					: right;		
-	margin-right			: 15px;
+	float					: left;		
+	margin-right			: 10px;
+	margin-left 			: 10px;
+
 }
-	#menu li{		
+
+	#menu li{
+		/*border-image: source slice width outset repeat|initial|inherit;*/	
+
 		width				: 160px;
 		height				: 40px;
 		text-align			: center;		
-		background-color	: #101E18;
+		background-color	: #1C1D1D;
 		display				: inline-block;	
-		color 				: #B54B59; /*#1C1D1D;*/
-		border-top	  		: solid 1px #101E18; /*#FFF;*/
+		color 				: #E1E1E1; /*F54B4B;*/ /*#1C1D1D;*/
+		border-top	  		: solid 1px #1C1D1D; /*#FFF;*/
+		text-shadow 		: 3px 3px #101010, 4px 4px #151515;
 		transition			: color  0.6s ease-out;
 		transition			: border 0.6s ease-out;		
 	}
 
 	#menu li:hover{
-		border-top	  		: solid 1px #B54B59; /*#CA0000;*/
+		border-top	  		: solid 1px #E1E1E1; /*#F54B4B;*/ /*#CA0000;*/
 		color 				: #fff; /*#CA0000;*/			
 	}
 
@@ -107,7 +122,7 @@ body{
 }
 
 .menu-text{
-	font-family				: "Eraser";
+	font-family				: "ArmaliteRifle";
 	font-size				: 1.75em;
 }
 
@@ -117,25 +132,25 @@ body{
 }
 
 .lies{	
-	font-size: 7em;
-	font-weight: 500;	
-	font-family: "Eraser";
-	color 					: #E1E1E1;
-	text-shadow 			: 4px 4px #151515, 6px 6px #B54B59;
+	font-size 				: 7em;
+	font-weight 			: 500;	
+	font-family 			: "ArmaliteRifle";
+	color 					: #E1E1E1; /*#D04444;*/
+	text-shadow 			: 4px 4px #151515, 6px 6px #A1A1A1; /*F54B4B;*/
 }
 
 .chalk-red{
-	font-family				: "Eraser";
-	color 					: #B54B59;
+	font-family				: "ArmaliteRifle";
+	color 					: #E1E1E1; /*#D04444;*/ /*F54B4B;*/
 	text-shadow 			: 4px 4px #151515;
 }
 
 .big{
-	font-size: 4em;
+	font-size 				: 4em;
 }
 
 #list-container{
-	width: 70%;
-	margin: 0 auto;	
-	text-align: left;
+	width 					: 70%;
+	margin 					: 0 auto;	
+	text-align 				: left;
 }
