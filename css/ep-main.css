@@ -1,20 +1,35 @@
 #master-container{	
-	width: 95%;
-	height: 100%;
-	margin-left: 2.5%;
-	position: relative;	
-	background-color: red;	
+	width 					: 95%;
+	height 					: 100%;
+	margin-left 			: 2.5%;
+	position 				: relative;	
+	background-color 		: red;	
 }
 
 #ep-list{
-	margin-left: 95px;
+	margin-left 			: 95px;
 }
 
 #bottom-menu{
-	background-color: blue;
-	height: 60px;
-	position: fixed;
-	width: 100%;
-	bottom: 0px;
-	z-index: 1;
+	background-color 		: blue;
+	height 					: 60px;
+	position 				: fixed;
+	width 					: 100%;
+	bottom 					: 0px;
+	z-index					: 1;
+}
+
+#menu{
+	float 					:right;
+	background-color 		: red;
+	display 				: inline-block;
+	list-style-type			: none;
+	float 					: left;
+	margin-left 			: 10px;
+}
+
+#menu-item{
+	background-color 		: gray;
+	display 				: inline-block;
+
 }
