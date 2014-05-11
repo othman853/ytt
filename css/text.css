@@ -7,3 +7,34 @@
 	font-family 			: Andada;
 	src 					: url(../font/AndadaSC-Regular.otf);
 }
+
+.armalite-light-big{
+	font-size				: 7em;
+	font-family				: ArmaliteRifle;
+	color					: #E1E1E1;
+	font-weight 			: 500;
+}
+
+.armalite-light-medium{
+	font-size				: 4em;
+	font-family				: ArmaliteRifle;
+	color					: #E1E1E1;
+}
+
+.armalite-light-small{
+	font-size				: 1.5em;
+	font-family				: ArmaliteRifle;	
+	color					: #E1E1E1;
+}
+
+.light-shadow-big{
+	text-shadow 			: 4px 4px #181818, 5px 5px #E1E1E1;
+}
+
+.light-shadow-medium{
+	text-shadow 			: 4px 4px #181818, 5px 5px #E1E1E1;
+}
+
+.light-shadow-small{
+	text-shadow 			: 4px 4px #181818, 5px 5px #E1E1E1;
+}
