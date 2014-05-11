@@ -1,0 +1,17 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:baseline;
+}
+
+img{
+	border-style 			: none;
+}
+
+body{	
+	background-image 		: url(../img/zwartevilt.png);
+	height					: 1500px;	
+	width 					: 100%;
+	position 				: relative;
+}
