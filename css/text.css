@@ -1,5 +1,6 @@
 @font-face{
 	font-family 			: ArmaliteRifle;
+<<<<<<< HEAD
 	
 	src 					: url(../font/armalite.woff),
 	 						  url(../font/armalite.svg),
@@ -8,10 +9,14 @@
 	 					      url(../font/armalite.ttf),
 	 					      url(../font/armalite.eot);
 
+=======
+	src 					: url(../font/armalite.ttf);
+>>>>>>> 196b2a60c8efceab70fea5686fecaf2c3c861923
 }
 
 @font-face{
 	font-family 			: Andada;
+<<<<<<< HEAD
 	src 					: url(../font/AndadaSC-Regular.eot),
 							  url(../font/AndadaSC-Regular.woff),
 	  						  url(../font/AndadaSC-Regular.svg),
@@ -22,12 +27,20 @@
 
 .armalite-light-big{
 	font-size				: 6.5em;
+=======
+	src 					: url(../font/AndadaSC-Regular.otf);
+}
+
+.armalite-light-big{
+	font-size				: 7em;
+>>>>>>> 196b2a60c8efceab70fea5686fecaf2c3c861923
 	font-family				: ArmaliteRifle;
 	color					: #E1E1E1;
 	font-weight 			: 500;
 }
 
 .armalite-light-medium{
+<<<<<<< HEAD
 	font-size				: 4.2vw;
 	font-family				: ArmaliteRifle;
 	color					: #E1E1E1;	
@@ -57,4 +70,27 @@
 	font-family: Andada;
 	font-size: 4vw;
 	text-align: justify;
+=======
+	font-size				: 4em;
+	font-family				: ArmaliteRifle;
+	color					: #E1E1E1;
+}
+
+.armalite-light-small{
+	font-size				: 1.5em;
+	font-family				: ArmaliteRifle;	
+	color					: #E1E1E1;
+}
+
+.light-shadow-big{
+	text-shadow 			: 4px 4px #181818, 5px 5px #E1E1E1;
+}
+
+.light-shadow-medium{
+	text-shadow 			: 4px 4px #181818, 5px 5px #E1E1E1;
+}
+
+.light-shadow-small{
+	text-shadow 			: 4px 4px #181818, 5px 5px #E1E1E1;
+>>>>>>> 196b2a60c8efceab70fea5686fecaf2c3c861923
 }
