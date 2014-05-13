@@ -1,0 +1,99 @@
+* {
+	margin 					:0;
+	padding 				:0;	
+	vertical-align 			:baseline;
+}
+
+html{
+	width 					: 100%;
+	height 					: auto;
+}
+
+img{
+	border-style 			: none;
+}
+
+body{	
+	background-image 		: url(../img/zwartevilt.png);		
+	width 					: 100%;	
+	height 					: 100%;
+}
+
+footer{
+	height 					: 250px;	
+	width 					: 100%;
+	position 				: absolute;
+	bottom 					: 0;	
+	top 					: 150%;
+	background-color 		: rgba(0,0,0,0.152) ;
+
+}
+.centered{
+	margin 					: 0 auto;	
+}
+
+.text-centered{
+	text-align 				: center;
+}
+
+#master-container{	
+	width 					: 95%;
+	height 					: auto;
+	margin-left 			: 2.5%;
+	position 				: relative;				
+}
+
+#bottom-menu{	
+	background-image 		: url(../img/zwartevilt.png);
+
+	height 					: 70px;
+	position 				: fixed;
+	width 					: 100%;
+	bottom 					: 0px;
+	z-index					: 1;
+
+	border-top 				: solid 1px #E1E1E1;
+
+	outline-style  			: dashed;
+	outline-width  			: 2px;
+	outline-color  			: #E1E1E1;
+	outline-offset 			: 3px;	
+}
+
+#menu{
+	float 					: right;	
+	display 				: inline-block;
+	list-style-type			: none;
+	float 					: left;
+	margin-left 			: 10px;
+	height 					: 32px;
+	width 					: 48%;
+}
+
+#menu-item{
+	background-color 		: #181818;
+	display 				: inline-block;
+	height 					: 30px;
+	width 					: 22%;
+	text-decoration 		: none;
+	text-align 				: center;
+	margin-top 				: 2%;
+
+	padding-top: 1%;
+	font-family: ArmaliteRifle;
+	font-size: 2vw;
+	color: #E1E1E1;
+
+	transition: background-color 0.5s ease-in;
+	transition: color 0.5s ease-in;
+}
+
+	#menu-item:hover{
+		background-color: #E1E1E1;
+		color: #181818;
+	}
+
+	#menu-item a{
+		text-decoration: none;
+		color: inherit;
+	}
