@@ -5,27 +5,62 @@
 #content h1{	
 	color: #E1E1E1;
 	font-family: ArmaliteRifle;
-	font-size: 16vw;
+	font-size: 12.5vw;
 	text-shadow: 0.45vw 0.45vw #181818, 0.55vw 0.55vw #E1E1E1;
-	font-weight: 500;
+	font-weight: 500;	
+	line-height: 12vw;
 }
 
 #content p{
 	color: #E1E1E1;
 	font-family: ArmaliteRifle;
-	font-size: 4vw;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	font-size:3.5vw;
+	margin-top: 20px;
+	margin-bottom: 30px;
 
 }
 
-#content a{
+.button{
 	text-decoration: none;
-	color: #181818;
+	color: #E1E1E1;
 	font-family: ArmaliteRifle;
-	font-size: 5vw;	
-	background-color: #E1E1E1;
+	font-size: 4vw;		
+	background-color: #181818;
 	margin-right: 15px;	
+	padding: 6px;
 }
+
+.social-media-menu{	
+	list-style: none;	
+	text-align: center;	
+	margin-bottom: 50px;	
+}
+
+.social-media{
+	font-size: 4vw;
+	font-family: Arial;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 5vw;
+	background-color: #181818;
+	width: 5vw;	
+		
+}
+
+.social-media > a{
+	text-decoration: none;
+	color: #E1E1E1;
+}
+
+.social-media > a > img{
+	width: 4vw;
+	height: 4vw;
+}
+
+.social-media:visited{
+	color: inherit;
+}
+
+
 
 
