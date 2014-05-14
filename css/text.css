@@ -34,7 +34,7 @@
 }
 
 .armalite-light-small{
-	font-size				: 2vw;
+	font-size				: 2.5vw;
 	font-family				: ArmaliteRifle;	
 	color					: #E1E1E1;
 	font-weight 			: 500;	
@@ -55,6 +55,6 @@
 .pure-text{
 	color: #E1E1E1;
 	font-family: Andada;
-	font-size: 4vw;
+	font-size: 3vw;
 	text-align: justify;
 }
