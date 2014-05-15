@@ -34,43 +34,83 @@ footer{
 	text-align 				: center;
 }
 
+.menu-item{
+	background-color 		: #181818;
+	border 					: solid 0.15vw #181818;
+	box-shadow 				: 0px 0px 5px #000;	
+	display 				: inline-block;
+	height 					: 2.5vw;
+	width 					: 22%;
+	text-decoration 		: none;
+	text-align 				: center;
+	margin-top 				: 2%;
+
+	padding-top 			: 1%;
+	font-family 			: ArmaliteRifle;
+	font-size 				: 2vw;
+	color 				  	: #E1E1E1;
+
+	transition 				: background-color 0.6s ease-in;
+	transition				: border-color 	   0.5s ease-in;	
+}
+
+	.menu-item:hover{
+		background-color 	: #C92D2D;
+		border-color 		: #C92D2D;  
+		box-shadow 			: 0px 0px 5px #C92D2D;	
+		color 				: #181818;
+	}
+
+	.menu-item a{
+		text-decoration 	: none;
+		color 				: inherit;
+		display 			: block;
+	}
+
+
 .social-media-menu{	
 	list-style 				: none;	
 	text-align 				: center;	
 	margin-bottom 			: 50px;
-	margin-top 				: 30px;	
+	margin-top 				: 30px;		
 }
 
 .social-media{
 	text-decoration 		: none;
-	color 					: #E1E1E1;
-	font-size 				: 4vw;
-	font-family 			: Andada;
+	color 					: #E1E1E1;		
 	font-weight 			: bold;
 	display 				: inline-block;
 	margin-right 			: 5vw;
 	background-color 		: #181818;
-	width 					: 4vw;	
-	height 					: 4vw;	
+	width 					: 60px;	
+	height 					: 60px;	
 	border-radius 			: 50px;
-	border 					: solid 5px #151515;
+	border 					: solid 0.2vw #151515;
 	box-shadow 				: 0px 0px 15px #181818;	
 	transition 				: background-color 0.5s ease-in;	
 	transition 				: border-color 0.5s ease-in;	
 }
 
-.social-media:hover{
-	border-color 			: #C92D2D;
-	box-shadow 				: 0px 0px 15px #C92D2D;
-	background-color 		: #C92D2D;
-	color 					: #181818;
-}
+	.social-media:hover{
+		border-color 			: #C92D2D;
+		box-shadow 				: 0px 0px 15px #C92D2D;
+		background-color 		: #C92D2D;
+		color 					: #181818;
+	}
+
+	.social-media a{
+		font-size 				: 47px;
+		font-family 			: Andada;
+		text-decoration 		: none;		
+		color 					: inherit;
+		display 				: block;
+	}
 
 #master-container{		
 	width 					: 100%;
 	min-height 				: 100%;
 	height 					: auto;		
-	position 				: relative;				
+	position 				: relative;					
 }
 
 #content{
@@ -106,35 +146,4 @@ footer{
 	width 					: 48%;
 }
 
-#menu-item{
-	background-color 		: #181818;
-	border 					: solid 0.5vw #181818;
-	box-shadow 				: 0px 0px 5px #000;	
-	display 				: inline-block;
-	height 					: 2.5vw;
-	width 					: 22%;
-	text-decoration 		: none;
-	text-align 				: center;
-	margin-top 				: 2%;
 
-	padding-top 			: 1%;
-	font-family 			: ArmaliteRifle;
-	font-size 				: 2vw;
-	color 				  	: #E1E1E1;
-
-	transition 				: background-color 0.6s ease-in;
-	transition				: border-color 	   0.5s ease-in;
-	
-}
-
-	#menu-item:hover{
-		background-color 	: #C92D2D;
-		border-color 		: #C92D2D;  
-		box-shadow 			: 0px 0px 5px #C92D2D;	
-		color 				: #181818;
-	}
-
-	#menu-item a{
-		text-decoration 	: none;
-		color 				: inherit;
-	}
