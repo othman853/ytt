@@ -147,6 +147,30 @@ footer{
 	width 					: 48%;
 }
 
+.fb{
+	width: 50px;
+	height:50px;
+	src: "../img/fb_btn.png";
+}	
+
+
+.yt{
+	width: 60px;
+	height:60px;
+	src:"../img/yt_btn.png";
+}
+
+.sc{
+	width: 80px;
+	height:60px;
+	src:"../img/sc_btn.png";
+}
+
+.tnb{
+	width: 80px;
+	height:60px;
+	src:"../img/tnb_btn.png";
+}
 
 
 /*.prot-soc-med{
