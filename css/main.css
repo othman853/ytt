@@ -31,8 +31,8 @@ footer{
 }
 
 .clickable{
-	cursor:  pointer;
-	width: 60%	;	
+	cursor 					:  pointer;
+	width 					: 60%;	
 }
 
 .text-centered{
@@ -141,9 +141,13 @@ footer{
 	outline-color  			: #E1E1E1;
 	outline-offset 			: 3px;	
 }
+	#bottom-menu h1{	
+		width 					: 47%;
+		float 					: left;	
+		margin-left 			: 10px;
+	}
 
-#menu{
-	float 					: right;	
+#menu{	
 	display 				: inline-block;
 	list-style-type			: none;
 	float 					: left;
@@ -152,31 +156,5 @@ footer{
 	width 					: 48%;
 }
 
-
-
-/*.prot-soc-med{
-	font-family 			: Modernpics;
-	font-size 				: 50px;	
-	text-decoration 		: none;
-	color 					: #E1E1E1;		
-	font-weight 			: bold;
-	display 				: inline-block;
-	margin-right 			: 2.5vw;
-	transition 				: color 0.5s ease-in;
-	transition 				: border-color 0.5s ease-in;		
-	border:solid 2px #181818;
-	background-color: #000;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right:5px;
-
-	width: 60px;
-	height: 60px;
-}
-	.prot-soc-med:hover{
-		color: #000;
-		background-color: #C92D2D;
-		border-color: #C92D2D; 
-	}*/
 
 
