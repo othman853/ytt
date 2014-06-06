@@ -1,3 +1,7 @@
+a{
+	color: #E1E1E1;
+}
+
 label{
 	display 				: inline-block;	
 	width 					: 11vw;
@@ -65,16 +69,13 @@ textarea{
 	background-color 		: #181818;
 	box-shadow 				: 0px 0px 5px #C92D2D;
 	border-color 			: #C92D2D;
-
 }
-
 
 .form-text{
 	font-size: 3vw;
 	font-family: Andada;
 	color: #E1E1E1;
-	margin-bottom: 5vw;
-
+	margin-bottom: 4.5vw;	
 }
 
 #form-container{
