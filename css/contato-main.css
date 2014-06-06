@@ -68,6 +68,15 @@ textarea{
 
 }
 
+
+.form-text{
+	font-size: 3vw;
+	font-family: Andada;
+	color: #E1E1E1;
+	margin-bottom: 5vw;
+
+}
+
 #form-container{
 	color 					: #E1E1E1;
 	background-color 		: #181818;
