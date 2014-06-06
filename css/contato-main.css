@@ -1,15 +1,22 @@
 label{
 	display 				: inline-block;	
-	width 					: 10.5vw;
+	width 					: 11vw;
 	margin-bottom 			: 15px;
 	margin-right 			: 5px;
+	margin-top 				: 0px;
 	font-family 			: Andada;
 	font-size 				: 2vw;	
 	clear 					: left;
 	text-align 				: right;	
+
+	-webkit-padding-after: 10px;
+    -webkit-padding-before: -10px;
+    -webkit-padding-start: 10px;
+    -webkit-padding-end: 10px;
 }
 
-input, textarea{	
+input, textarea{
+	display 				: inline-block;
 	background-color 		: rgba(0,0,0,0.3);
 	border 					: solid 1px #C92D2D;
 	color 					: #C92D2D;		
@@ -25,14 +32,18 @@ input, textarea{
 	box-shadow 				: 0px 0px 5px #000;
 }
 	input:focus{
+		outline 				: 0;
 		box-shadow 				: 0px 0px 5px #C92D2D;
 	}
 
 	
 textarea{
-	height 					: 100px;
+	height: 100px;
+	vertical-align: top;
+
 }
 	textarea:focus{
+		outline 				: 0;
 		box-shadow 				: 0px 0px 5px #C92D2D;
 	}
 
