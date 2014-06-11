@@ -25,7 +25,7 @@ body{
 }
 
 footer{
-	height 					: 20vw;	
+	height 					: 18vw;	
 	width 					: 100%;
 	position 				: absolute;
 	bottom 					: 0;		
@@ -104,11 +104,11 @@ footer{
 	width 					: 100%;
 	min-height 				: 100%;
 	height 					: auto;		
-	position 				: relative;					
+	position 				: relative;						
 }
 
 #content{
-	padding-bottom 			: 300px;
+	padding-bottom 			: 20vw;
 	width 					: 95%;
 	margin-left 			: 2.5%;		
 }
