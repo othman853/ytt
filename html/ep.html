@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+	<head>
+		<title>Yell The Truth</title>
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/ep-main.css">
+		<link rel="stylesheet" type="text/css" href="../css/text.css">
+		<link rel="stylesheet" type="text/css" href="../font-awesome-4.1.0/css/font-awesome.min.css">
+		
+		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+		<script src="js/jquery-1.11.1.js"></script>
+
+		<script type="text/javascript">
+			function switchSong(songNumber){
+				switch (songNumber){
+					case 1:
+						document.getElementById("song-title").innerHTML = "Lies";						
+						break;
+					case 2:
+						document.getElementById("song-title").innerHTML = "Hide and Seek";						
+						break;
+					case 3:
+						document.getElementById("song-title").innerHTML = "Freak of the Weak";						
+						break;
+					case 4:
+						document.getElementById("song-title").innerHTML = "I Know";						
+						break;
+					case 5:
+						document.getElementById("song-title").innerHTML = "Fooled One";						
+						break;
+					default:
+						break;
+				}
+			}
+		</script>
+		
+	</head>
+
+	<body>	
+	
+		<div id="master-container">
+			<section id="content">
+				<article>
+					<h1 class="armalite-light-big light-shadow-big text-centered"> lIES!</h1>
+
+					<br />
+
+					<ol id="ep-list" class="armalite-light-medium">
+						<li class="clickable" onclick="switchSong(1);">Lies ! </li>
+						<li class="clickable" onclick="switchSong(2);">Hide And Seek</li>
+						<li class="clickable" onclick="switchSong(3);">Freak Of The Weak</li>
+						<li class="clickable" onclick="switchSong(4);">I Know</li>
+						<li class="clickable" onclick="switchSong(5);">Fooled One</li>
+					</ol>	
+
+					
+					<div id="sc-player-container" class="centered text-centered">
+						<p id="song-title">Freak of the Weak </p>
+
+						<iframe id="sc-widget" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F147489668&show_artwork=false&show_user=false&theme_color=C92D2D&color=C92D2D"> </iframe>
+					</div>	
+
+
+					<!-- 
+					SOUNDCLOUD IDs
+						LIES 		  : 147489668 
+						HIDE AND SEEK : 151104766
+					-->
+
+					<!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/147489668&amp;auto_play=false&amp;hide_related=true&amp;visual=false&amp;show_artwork=false&amp;show_user=false"></iframe>-->
+
+					<!--<iframe id="sc-widget" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1848538&show_artwork=false"></iframe>-->					
+				</article>
+			</section>	
+
+			<footer>
+				<h1 class="armalite-light-small text-centered">Spread The Word!</h1>
+
+				<ul class="social-media-menu">									
+
+					<li>
+						<a href="http://fb.com/yellthetruth"><i class=" social-media-menu-item fa fa-facebook-square"></i> </a>
+					</li>
+
+					<li >
+						<a href="http://fb.com/yellthetruth"><i class="social-media-menu-item fa fa-soundcloud"></i> </a>
+					</li>
+
+					<li>
+						<a href="http://fb.com/yellthetruth"> <i class="social-media-menu-item fa fa-youtube-play"></i> </a>
+					</li>
+
+					<li>
+						<a href="http://fb.com/yellthetruth"><i class="social-media-menu-item fa fa-twitter"></i> </a>
+					</li>
+
+					<li>
+						<a href="http://fb.com/yellthetruth"><i class="social-media-menu-item fa fa-music"></i> </a>
+					</li>
+
+				</ul>	
+			</footer>
+		</div>
+
+		
+		<nav>
+			<h1 class="armalite-light-medium light-shadow-big ">Yell The Truth</h1>
+			
+			<ul id="menu">			
+				<li class="menu-item"><a href="ep.html"> E.P. </a></li>
+				<li class="menu-item"><a href="agenda.html">  Agenda  </a></li>
+				<li class="menu-item"><a href="banda.html">  Banda  </a></li>
+				<li class="menu-item"><a href="contato.html"> Contato </a></li>		    
+			</ul>						
+		</nav>				
+	</body>
+
+	<script type="text/javascript">
+	  (function(){
+	    var widgetIframe = document.getElementById('sc-widget'),
+	        widget       = SC.Widget(widgetIframe),
+	        newSoundUrl = 'http://api.soundcloud.com/tracks/147489668';
+
+	    widget.bind(SC.Widget.Events.READY, function() {
+	      // load new widget
+	      widget.bind(SC.Widget.Events.FINISH, function() {
+	        widget.load(newSoundUrl, {
+	          show_artwork: false
+	        });
+	      });
+	    });
+
+	  }());
+	</script>
+</html>

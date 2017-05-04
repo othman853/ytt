@@ -1,0 +1,68 @@
+.button{
+	text-decoration 		: none;
+	color 					: #181818;
+	font-family 			: ArmaliteRifle;
+	font-size 				: 4vw;		
+	background-color 		: #C92D2D;
+	border 					:solid 1px #C92D2D;
+	border-radius 			: 3px;
+	margin-right 			: 15px;	
+	padding 				: 6px;
+	box-shadow 				: 0px 0px 15px #C92D2D;
+	transition 				: background-color 0.4s ease-in;	
+	transition 				: border-color 0.4s ease-in;	
+}
+
+	.button:hover{
+		border-color 		: #212121;		
+	}
+
+
+/*Inherited from main.css*/
+#master-container{
+	margin-bottom 	: 0px;
+	height 			: auto;
+}
+
+/*Inherited from main.css*/
+#content{
+	text-align 		: center;
+	margin-bottom 	: 0px;	
+	height 			: auto;
+}
+
+	#content h1{	
+		color 					: #E1E1E1;
+		font-family 			: ArmaliteRifle;
+		font-size 				: 12.5vw;
+		text-shadow 			: 0.45vw 0.45vw #181818, 0.60vw 0.60vw #C92D2D;
+		font-weight 			: 500;	
+		line-height 			: 12vw;
+	}
+
+	#content p{
+		color 						: #E1E1E1;
+		font-family 				: ArmaliteRifle;
+		font-size 					: 4vw;
+		margin-top 					: 50px;
+		font-size 					: 3.5vw;
+		margin-top 					: 20px;
+		margin-bottom 				: 30px;
+	}
+
+/* Inherited from main.css */
+.social-media{
+	font-size 		: 4vw;
+	margin-right 	: 5vw;
+	width 			: 5vw;	
+	height 			: 5vw;
+	padding-top 	: 0vw;
+
+	transition 		: background-color 0.5s ease-in;	
+	transition 		: border-color 0.5s ease-in;	
+}
+
+
+
+
+
