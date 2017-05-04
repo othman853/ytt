@@ -1,0 +1,12 @@
+{
+  "name": "ytt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/othman853/ytt.git",
+  "author": "othman853 <anuar.yasser@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "webpack": "^2.5.0"
+  }
+}
