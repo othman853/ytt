@@ -12,14 +12,6 @@ header h1 {
   grid-column-end: 100;
 }
 
-#landing {
-  background-color: orange;
-}
-
-#pictures {
-  background-color: black;
-}
-
 .is-full-sized {
   min-width: 100vw;
   min-height: 100vh;
