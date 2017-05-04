@@ -4,49 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YELL THE TRUTH</title>
-    <style media="screen">
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body, html {
-        width: 100%;
-        height: 100%;
-      }
-
-      body {
-        display: grid;
-        grid-template-columns: repeat(12, 8.333%);
-        grid-template-rows: repeat(100, 1%);
-      }
-
-      header {
-        grid-column-start: 1;
-        grid-column-end: 100;
-        grid-row-start: 1;
-        grid-row-end: 10;
-        background-color: red;
-      }
-
-      header h1 {
-        grid-row-start: 20;
-        grid-column-start: 40;
-        grid-column-end: 100;
-      }
-
-      .is-full-grid-sized {
-        display: grid;
-        grid-template-columns: repeat(100, 1%);
-        grid-template-rows: repeat(100, 1%);
-      }
-    </style>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./desktop.css">
   </head>
   <body>
 
-    <header class="is-full-grid-sized">
-      <h1>YELL THE TRUTH</h1>
-    </header>
+    <section class="is-full-sized is-grid">
+      <div class="is-full-grid-sized is-background-video">
+        <div class="is-full-sized is-dark">
+        </div>
+        <video src="play.mp4" autoplay loop> </video>
+      </div>
+
+      <div class="is-full-grid-sized is-grid">
+        <h1 class="is-grid-vertical-centered is-grid-full-horizontal has-text-centered headline">Yell the truth</h1>
+      </div>
+
+    </section>
 
   </body>
 </html>

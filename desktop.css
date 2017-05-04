@@ -1,0 +1,83 @@
+header {
+  grid-column-start: 1;
+  grid-column-end: 100;
+  grid-row-start: 1;
+  grid-row-end: 10;
+  background-color: red;
+}
+
+header h1 {
+  grid-row-start: 20;
+  grid-column-start: 40;
+  grid-column-end: 100;
+}
+
+#landing {
+  background-color: orange;
+}
+
+#pictures {
+  background-color: black;
+}
+
+.is-full-sized {
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.is-grid {
+  display: grid;
+  grid-template-columns: repeat(100, 1%);
+  grid-template-rows: repeat(100, 1%);
+}
+
+.is-full-grid-sized {
+  grid-column-start: 1;
+  grid-column-end: 101;
+  grid-row-start: 1;
+  grid-row-end: 101;
+}
+
+.is-background-video {
+  z-index: -100;
+}
+
+.is-dark {
+  background-color: rgba(0, 100, 0, 0.2);
+}
+
+.is-grid-vertical-centered {
+  grid-row-start: 50;
+  grid-row-end: 100;
+}
+
+.is-grid-full-horizontal {
+  grid-column-start: 1;
+  grid-column-end: 100;
+}
+
+.has-text-centered {
+  text-align: center;
+}
+
+.headline {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 100pt;
+  font-weight: bold;
+}
+
+.is-background-video video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+ -moz-transform: translateX(-50%) translateY(-50%);
+ -webkit-transform: translateX(-50%) translateY(-50%);
+ transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
