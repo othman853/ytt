@@ -12,14 +12,6 @@ header h1 {
   grid-column-end: 100;
 }
 
-#landing {
-  background-color: orange;
-}
-
-#pictures {
-  background-color: black;
-}
-
 .is-full-sized {
   min-width: 100vw;
   min-height: 100vh;
@@ -49,7 +41,7 @@ header h1 {
 }
 
 .is-grid-vertical-centered {
-  grid-row-start: 50;
+  grid-row-start: 35;
   grid-row-end: 100;
 }
 
@@ -65,8 +57,21 @@ header h1 {
 .headline {
   color: #FFF;
   text-transform: uppercase;
-  font-size: 100pt;
+  font-size: 7em;
   font-weight: bold;
+  text-shadow: 9px 2px #37483e;
+  /*font-family: 'Anton', sans-serif;*/
+  font-family: 'Archivo Black', sans-serif;
+  /*font-family: 'Cairo', sans-serif;*/
+  /*font-family: 'Hind Vadodara', sans-serif;*/
+  /*font-family: 'Homenaje', sans-serif;*/
+  /*font-family: 'Jockey One', sans-serif;*/
+  /*font-family: 'Pragati Narrow', sans-serif;*/
+
+  /*font-family: 'Space Mono', monospace;*/
+  /*font-family: 'Squada One', cursive;*/
+  /*font-family: 'Tauri', sans-serif;*/
+  /*font-family: 'Telex', sans-serif;*/
 }
 
 .is-background-video video {
